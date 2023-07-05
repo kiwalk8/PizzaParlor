@@ -1,0 +1,61 @@
+/* stack navigation when smaller
+add flex boxes to order page (2)
+menu should all be flexboxes, read through all directions again */
+
+body {
+    margin: auto;
+    background-color: #ff5195;
+}
+
+header {
+    background-color: #ff5195;
+    justify-content: center;
+    display: flex;
+}
+
+nav {
+    color: white;
+    text-align: center;
+    font-family: 'Gagalin', sans-serif;
+    font-size: 18pt;
+    padding-bottom: 5px;
+}
+
+/* try to use flex to stick this to the bottom, sticky too? */
+footer {
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Gagalin', sans-serif;
+    font-size: 24px;
+    margin: 0px;
+}
+
+a:link {
+    color: aqua;
+    text-decoration: none;
+}
+
+a:visited {
+    color: aqua;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+
+div {
+    background-color: white;
+    padding: 15px;
+}
+
+input, select {
+    display: block;
+    margin: 10px;
+    width: 230px;
+    height: 25px;
+}
