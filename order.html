@@ -10,6 +10,9 @@
     July 4, 2023 -->
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.cdnfonts.com/css/gagalin" rel="stylesheet">
+    <link rel="stylesheet" href="flexstyles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7849e3cd90.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -23,10 +26,10 @@
         <a href="">Our Location</a>
     </nav>
     <div id="ordercolumns">
-        <h3>
-            Order a Pizza:
-        </h3>
         <div id="ordercolumn1">
+            <h3>
+                Order a Pizza:
+            </h3>
             <input type="text" name="first" id="first" placeholder="First Name" required>
             <input type="text" name="last" id="last" placeholder="Last Name" required>
             <input type="tel" name="phone" placeholder="Phone Number" required>
@@ -38,38 +41,40 @@
                 <option value="tomato">Tomato and Basil</option>
                 <option value="squash">Butternut Squash</option>
             </select>
-            <input type="number" name="nbrpizza" id="nbrpizza" min="1" max="6">
+            <input type="number" name="nbrpizza" id="nbrpizza" min="1" max="6" placeholder="Number of Pizzas">
             <input type="submit" value="Submit">
 
         </div>
-        <section id="testimonial">
-            <h3>
-                Customer Testimonial
-            </h3>
-            <p>
-                Cheech's Pizza Parlor is the best place in town! What a unique selection! The crust is crispy thin
-                cracker crust, which is just the best. The service is fast and extremely friendly. This will forever be
-                my favorite pizza place!
-            </p>
-        </section>
-        <section id="socials">
-            <h3>Follow us on social media!</h3>
-        </section>
-        <section>
-            <h3>
-                Have a fun flavor suggestion? 
-            </h3>
-            <p>
-                We'd love to hear it! Make your suggestion below!
-            </p>
-
-            <textarea name="suggestion" id="suggestion" cols="40" rows="4"></textarea>
-        </section>
-        <h3>
-
-        </h3>
         <div id="ordercolumn2">
+            <section id="testimonial">
+                <h3>
+                    Customer Testimonial
+                </h3>
+                <p>
+                    <em>"Cheech's Pizza Parlor is the best place in town! What a unique selection! The crust is crispy
+                        thin
+                        cracker crust, which is just the best. The service is fast and extremely friendly. This will
+                        forever
+                        be
+                        my favorite pizza place!" </em>
+                </p>
+            </section>
+            <section id="socials">
+                <h3>Follow us on social media!</h3>
+                <i class="fa-brands fa-square-facebook fa-2xl"></i>
+                <i class="fa-brands fa-square-twitter fa-2xl" style="color: #00ffff;"></i>
+                <i class="fa-brands fa-square-instagram fa-2xl" style="color: #ff5195;"></i>
+            </section>
+            <section>
+                <h3>
+                    Have a fun flavor suggestion?
+                </h3>
+                <p>
+                    We'd love to hear it! Make your suggestion below!
+                </p>
 
+                <textarea name="suggestion" id="suggestion" cols="55" rows="4"></textarea>
+            </section>
         </div>
     </div>
 

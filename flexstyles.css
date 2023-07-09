@@ -1,0 +1,32 @@
+#ordercolumns {
+    display: flex;
+}
+
+#ordercolumn1 {
+    flex: 1 2 250px;
+}
+
+#ordercolumn2 {
+    flex: 2 1 600px;
+}
+
+#pizzas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.pizzacontainers {
+    width: 400px;
+    text-align: center;
+}
+
+@media screen and (max-width: 568px) {
+    #pizzas {
+        display: block;
+    }
+
+    #ordercolumns {
+        display: block;
+    }
+}
