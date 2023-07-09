@@ -21,6 +21,11 @@
     text-align: center;
 }
 
+nav {
+    display: flex;
+    justify-content: center;
+}
+
 @media screen and (max-width: 568px) {
     #pizzas {
         display: block;
@@ -29,4 +34,11 @@
     #ordercolumns {
         display: block;
     }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
 }

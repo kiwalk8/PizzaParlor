@@ -15,11 +15,14 @@ header {
 
 nav {
     color: white;
-    text-align: center;
     font-family: 'Gagalin', sans-serif;
     font-size: 18pt;
     padding-bottom: 5px;
     text-shadow: 2px 2px 5px #000000;
+}
+
+nav>a {
+    padding-left: 20px;
 }
 
 footer {
