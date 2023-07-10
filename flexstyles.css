@@ -7,11 +7,11 @@ July 4, 2023 */
 }
 
 #ordercolumn1 {
-    flex: 1 2 250px;
+    flex: 1 2 150px;
 }
 
 #ordercolumn2 {
-    flex: 2 1 600px;
+    flex: 2 1 300px;
 }
 
 #pizzas {
